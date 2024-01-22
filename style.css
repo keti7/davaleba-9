@@ -1,0 +1,39 @@
+.box1{
+    width: 150px;
+    height: 130px;
+    background: #C7F0C0;
+    margin-bottom: 15px;
+    animation: boxAnimation 4s infinite;
+}
+.box2{
+    width: 150px;
+    height: 130px;
+    background: #5A4646;
+    margin-bottom: 15px;
+    animation: boxAnimation 4s infinite;
+}
+.box3{
+    width: 150px;
+    height: 130px;
+    background: #95B8CC;
+    margin-bottom: 15px;
+    animation: boxAnimation 4s infinite;
+}
+.box4{
+    width: 150px;
+    height: 130px;
+    background: #E9C1C1;
+    margin-bottom: 15px;
+    animation: boxAnimation 4s infinite;
+}
+
+@keyframes boxAnimation{
+    0%, 100% {
+        width: 150px;
+        height: 130px;
+      }
+      50% {
+        width: 1500px;
+        height: 130px;
+      }
+}
